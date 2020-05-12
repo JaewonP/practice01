@@ -10,6 +10,15 @@ public class Prob01 {
 		System.out.print( "수를 입력하세요 : " );
 		int number = scanner.nextInt();
 
+		if (number%3 == 0 ) {
+			
+			System.out.println("3의 배수 입니다.");
+			
+			
+		}
+		else {
+			System.out.println("3의 배수가 아닙니다.");
+		}
 		
 		scanner.close();
 	}
